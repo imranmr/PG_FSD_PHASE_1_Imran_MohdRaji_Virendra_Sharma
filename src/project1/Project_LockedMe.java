@@ -148,7 +148,7 @@ public class Project_LockedMe {
 	            System.out.println("Do you want to continue (y/n)? ");
 	            continueInput = scanner.next().charAt(0);
 	        } while (continueInput == 'Y' || continueInput == 'y');
-	    
+	    scanner.close();
 	}
 
 
